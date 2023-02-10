@@ -1,0 +1,7 @@
+resources:
+- base/pod.yaml
+
+images:
+- name: busybox
+  newName: alpine
+  newTag: "3.6"
